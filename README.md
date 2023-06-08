@@ -17,29 +17,31 @@ This is a Flask-based portfolio website that allows visitors to view a portfolio
 
 The folder structure of the project is as follows:
 
+```shell
 portfolio/
 ├── app.py
-├── portfolio/
-│ ├── static/
-│ │ └── css/
-│ │ └── style.css
-│ ├── templates/
-│ │ ├── portfolio.html
-│ │ └── report.html
-│ └── reports/
-│ └── report.csv
-├── data/
-│ ├── feedback.csv
-│ ├── resume.txt
-│ └── journey.txt
-├── logs/
-│ └── app.log
-├── requirements.txt
+├── data
+│   ├── feedback.csv
+│   ├── journey.txt
+│   ├── report.csv
+│   └── resume.txt
+├── LICENSE
+├── logs
+│   └── app.log
+├── portfolio
+│   ├── static
+│   │   └── css
+│   │       └── style.css
+│   └── templates
+│       ├── feedback.html
+│       ├── portfolio.html
+│       └── report.html
 ├── Procfile
-├── .env
 ├── README.md
+├── requirements.txt
+├── SetUpFlaskService.md
 └── setup.py
-
+```
 
 - The `app.py` file contains the Flask application code and routes.
 - The `static` folder holds static assets like CSS files.
