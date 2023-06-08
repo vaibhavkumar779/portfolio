@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        /* Custom CSS to float feedback section */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            max-width: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Portfolio</h1>
+    <div class="container">
+        <div class="resume-section">
+            <h2>Resume</h2>
+            <div class="resume-content">
+                <section class="personal-info">
+                    <h3>Personal Information</h3>
+                    <pre>
+    Name: Vaibhav Kumar
+    Location: Ghaziabad, Uttar Pradesh, India
+    Email: vaibhav.kr.779@gmail.com
+    Phone: 8318620608
+    LinkedIn: linkedin.com/in/vaibhavkumar779
+              </pre>
+                </section>
+
+                <section class="summary">
+                    <h3>Summary</h3>
+                    <p>
+                        DevOps engineer with experience in architecting and automating integral deployments over
+                        infrastructure. Proficient in Jenkins, Git, AWS, and developing CI pipelines. Skilled in
+                        configuration management using Ansible and infrastructure management using Terraform.
+                        Experienced in Python development for 4 years. Participated in 3 hackathons.
+                    </p>
+                </section>
+
+                <section class="experience">
+                    <h3>Experience</h3>
+                    <ul>
+                        <li>
+                            <strong>Software Consultant, NashTech</strong>
+                            <br>
+                            Jan 2023 - Present (6 months)
+                        </li>
+                        <li>
+                            <strong>DevOps Engineer, Knoldus Inc | part of NashTech</strong>
+                            <br>
+                            May 2022 - Jan 2023 (9 months)
+                        </li>
+                        <!-- Add more experience entries -->
+                    </ul>
+                </section>
+
+                <section class="education">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>
+                            <strong>ABESIT - Bachelor of Technology - BTech, Information Technology</strong>
+                            <br>
+                            Jul 2018 - Jul 2022
+                        </li>
+                        <li>
+                            <strong>Sainik School Gopalganj - Intermediate or High School Equivalent, Physics
+                                Mathematics Chemistry</strong>
+                            <br>
+                            Apr 2013 - May 2017
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="certifications">
+                    <h3>Licenses & Certifications</h3>
+                    <ul>
+                        <li>NCC C certificate - National Cadet Corps</li>
+                        <li>Python 3 Programming - University of Michigan (954VXG99PW6K)</li>
+                        <li>Professional Cloud DevOps Engineer - Google Cloud Community India (Issued Sep 2022 - Expires
+                            Sep 2024, 57696311)</li>
+                        <li>Microsoft Certified: Azure Network Engineer Associate - Microsoft (Issued Feb 2023 - Expires
+                            Feb 2024)</li>
+                    </ul>
+                </section>
+
+                <section class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Microsoft Azure</li>
+                        <li>Azure DevOps</li>
+                        <li>PowerShell</li>
+                        <li>Python (Programming Language)</li>
+                        <li>Amazon Web Services (AWS)</li>
+                        <li>Google Cloud Platform (GCP)</li>
+                        <li>Kubernetes</li>
+                        <li>TeamCity</li>
+                        <li>Docker</li>
+                        <li>Jenkins</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="journey-section">
+            <h2>Journey:</h2>
+            <p>{{ journey_data }}</p>
+        </div>
+        <div class="feedback-section">
+            <form action="/feedback" method="post">
+                <h2>Feedback:</h2>
+                <input type="text" name="name" placeholder="Name" required><br>
+                <input type="email" name="email" placeholder="Email" required><br>
+                <textarea name="feedback" placeholder="Feedback" required></textarea><br>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

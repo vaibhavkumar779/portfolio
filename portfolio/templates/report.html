@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Visitor Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="report-container">
+        <div class="visitor-card">
+            <h1>Visitor Report</h1>
+        </div>
+        <div class="total-visitors">
+            <h2>Total Visitors: {{ total_visitors }}</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Feedback</th>
+                    <th>IP Address</th>
+                    <th>MAC Address</th>
+                    <th>Visit Time</th>
+                    <th>Time Spent</th>
+                    <th>Visited Page</th>
+                </tr>
+                {% for visitor in visitors %}
+                <tr>
+                    <td>{{ visitor.name }}</td>
+                    <td>{{ visitor.email }}</td>
+                    <td>{{ visitor.feedback }}</td>
+                    <td>{{ visitor.ip_address }}</td>
+                    <td>{{ visitor.mac_address }}</td>
+                    <td>{{ visitor.visit_time }}</td>
+                    <td>{{ visitor.time_spent }}</td>
+                    <td>{{ visitor.visited_page }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+</body>
+
+</html>

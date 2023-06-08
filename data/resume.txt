@@ -1,0 +1,75 @@
+VAIBHAV KUMAR
+Ghaziabad, Uttar Pradesh, India
+vaibhav.kr.779@gmail.com
+8318620608
+linkedin.com/in/vaibhavkumar779
+
+Summary:
+DevOps engineer with experience in architecting and automating integral deployments over infrastructure. Proficient in Jenkins, Git, AWS, and developing CI pipelines. Skilled in configuration management using Ansible and infrastructure management using Terraform. Experienced in Python development for 4 years. Participated in 3 hackathons.
+
+Experience:
+Software Consultant, NashTech
+Jan 2023 - Present (6 months)
+
+DevOps Engineer, Knoldus Inc | part of NashTech
+May 2022 - Jan 2023 (9 months)
+
+Trainee Software Consultant, Knoldus Inc | part of NashTech
+Nov 2021 - May 2022 (7 months)
+
+Vice President, BIT BRAIN CLUB
+Sep 2020 - Apr 2022 (1 year 8 months)
+
+Data Engineer, REOMNIFY
+Jan 2021 - Jun 2021 (6 months)
+
+Core Member, GDSC ABESIT
+Sep 2020 - Jun 2021 (10 months)
+
+Content Manager, CySec Alliance
+Sep 2020 - May 2021 (9 months)
+
+Internship Studio
+Sep 2020 - Oct 2020 (2 months)
+- Excel Automation
+
+Content Development, Skyfi Labs
+Jul 2020 - Sep 2020 (3 months)
+- Writing articles for projects
+- Domains: Web, ML, Ethical Hacking, Game Development
+- Languages used: JavaScript, Python, C
+- Tech Used: Jupyter Notebook, BurpSuite, VS Code
+
+Public Relations Incharge, BIT BRAIN CLUB
+Oct 2019 - Aug 2020 (11 months)
+
+Software Engineering Virtual Experience, JPMorgan Chase & Co.
+Jun 2020 - Jun 2020 (1 month)
+- Completed practical task modules in:
+  - Establishing Financial Data Feeds
+  - Frontend Web Development
+  - Data Visualization with Perspective
+
+Education:
+ABESIT - Bachelor of Technology - BTech, Information Technology
+Jul 2018 - Jul 2022
+
+Sainik School Gopalganj - Intermediate or High School Equivalent, Physics Mathematics Chemistry
+Apr 2013 - May 2017
+
+Licenses & Certifications:
+- NCC C certificate - National Cadet Corps
+- Python 3 Programming - University of Michigan (954VXG99PW6K)
+- Professional Cloud DevOps Engineer - Google Cloud Community India (Issued Sep 2022 - Expires Sep 2024, 57696311)
+- Microsoft Certified: Azure Network Engineer Associate - Microsoft (Issued Feb 2023 - Expires Feb 2024)
+- Skills:
+  - Microsoft Azure
+  - Azure DevOps
+  - PowerShell
+  - Python (Programming Language)
+  - Amazon Web Services (AWS)
+  - Google Cloud Platform (GCP)
+  - Kubernetes
+  - TeamCity
+  - Docker
+  - Jenkins

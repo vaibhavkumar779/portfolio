@@ -1,0 +1,30 @@
+Journey of Vaibhav Kumar
+
+1. Software Consultant at NashTech (Jan 2023 - Present)
+   - Role: DevOps Engineer
+   - Responsibilities: Architecting and automating integral deployments over infrastructure.
+
+2. DevOps Engineer at Knoldus Inc | part of NashTech (May 2022 - Jan 2023)
+   - Responsibilities: Developed CI pipelines, leveraged configuration management using Ansible, and managed infrastructure using Terraform.
+
+3. Trainee Software Consultant at Knoldus Inc | part of NashTech (Nov 2021 - May 2022)
+   - Role: DevOps Engineer
+
+4. Vice President at BIT BRAIN CLUB (Sep 2020 - Apr 2022)
+   - Responsibilities: Leadership role in managing technical club activities.
+
+5. Data Engineer at REOMNIFY (Jan 2021 - Jun 2021)
+   - Responsibilities: Worked on data engineering tasks and projects.
+
+6. Core Member at GDSC ABESIT (Sep 2020 - Jun 2021)
+   - Responsibilities: Contributed to technical and development activities of the club.
+
+7. Content Manager at CySec Alliance (Sep 2020 - May 2021)
+   - Responsibilities: Managed and created content related to cybersecurity.
+
+8. Internship at Internship Studio (Sep 2020 - Oct 2020)
+   - Responsibilities: Worked on Excel automation projects.
+
+9. Content Development at Skyfi Labs (Jul 2020 - Sep 2020)
+   - Responsibilities: Developed articles for various domains including web development, machine learning, ethical hacking, and game development.
+

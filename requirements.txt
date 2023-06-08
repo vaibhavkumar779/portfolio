@@ -1,0 +1,5 @@
+python-dotenv
+Flask==2.3.0
+Jinja2==3.0.2
+Werkzeug==2.0.1
+psutil==5.8.0

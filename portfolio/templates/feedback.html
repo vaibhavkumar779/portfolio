@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="report-container">
+        <div class="visitor-card">
+            <h1>Feedback Collected</h1>
+        </div>
+        <div class="total-visitors">
+            <h2>Total Visitors: {{ total_visitors }}</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Feedback</th>
+                    <th>IP Address</th>
+                </tr>
+                {% for visitor_feedback in visitors_feedbacks %}
+                <tr>
+                    <td>{{ visitor_feedback.name }}</td>
+                    <td>{{ visitor_feedback.email }}</td>
+                    <td>{{ visitor_feedback.feedback }}</td>
+                    <td>{{ visitor_feedback.ip_address }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+</body>
+
+</html>
