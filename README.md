@@ -51,7 +51,7 @@ portfolio/
 - The `logs` folder is used for application logs.
 - The `requirements.txt` file lists the required Python packages.
 - The `Procfile` file specifies the command to run the application on a production server.
-- The `.env` file is used for environment variables.
+- The `.env` file is used for environment variables. Not here on github as .gitignore not allows only content was FLASK_DEBUG=development
 - The `README.md` file provides information about the project.
 - The `setup.py` file is used for packaging the application.
 
