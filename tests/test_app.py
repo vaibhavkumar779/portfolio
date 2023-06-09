@@ -6,7 +6,7 @@ import pytest
 # sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "portfolio")))
 
 # Import the app module from the 'portfolio' package
-from portfolio import app
+from portfolio.app import app
 
 @pytest.fixture
 def client():
