@@ -15,7 +15,7 @@ load_dotenv()
 logging.basicConfig(filename='logs/app.log', level=logging.INFO)
 
 # Define the path to the data directory
-DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../data')
 
 # Define the path to the report CSV file
 REPORT_FILE = os.path.join(DATA_DIR, 'report_data.csv')
@@ -100,8 +100,13 @@ def calculate_time_spent(start_time):
 # Route for the portfolio page
 @app.route('/')
 def portfolio():
+    # Store start time in the app object
+    if not hasattr(app, 'start_time'):
+        app.start_time = datetime.datetime.now()
+
     # Save Visitor's Data
     with open(REPORT_FILE, 'a', newline='') as file:
+        writer = csv.writer(file)
         ip_address = request.remote_addr
         mac_address = get_mac_address()
         visit_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')

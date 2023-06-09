@@ -19,6 +19,8 @@ def test_home_page(client):
     response = client.get('/')
     assert response.status_code == 200
     assert b"Welcome to My Portfolio" in response.data
+    assert b"Submit Feedback" in response.data
+
 
 
 def test_submit_feedback(client):
