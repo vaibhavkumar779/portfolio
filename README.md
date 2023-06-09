@@ -2,6 +2,8 @@
 
 This is a Flask-based portfolio website that allows visitors to view a portfolio, submit feedback, and generate a report of all visitor feedback.
 
+* Note: At present the port is 5000.
+
 ## Features
 
 - Display a portfolio page with resume information and a journey section.

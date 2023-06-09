@@ -1,4 +1,3 @@
 name,email,feedback,ip_address,mac_address,visit_time,time_spent,visited_page
-vk,vk@checkmail.com,trial
 check,ok@gmail.com,new check,127.0.0.1,Unknown,2023-06-08 14:37:43,0:00:35.796681,http://127.0.0.1:5000/feedback
 John Doe,johndoe@example.com,Test feedback,127.0.0.1,Unknown,2023-06-09 11:33:40,0:00:00.003863,http://localhost/feedback

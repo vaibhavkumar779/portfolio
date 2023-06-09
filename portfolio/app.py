@@ -143,6 +143,21 @@ def submit_feedback():
             logging.exception('Error occurred while submitting feedback: %s', str(e))
             return 'An error occurred. Please try again later.', 500
     elif request.method == 'GET':
+        # Store start time in the app object
+        if not hasattr(app, 'start_time'):
+            app.start_time = datetime.datetime.now()
+
+        # Save Visitor's Data
+        with open(REPORT_FILE, 'a', newline='') as file:
+            writer = csv.writer(file)
+            ip_address = request.remote_addr
+            mac_address = get_mac_address()
+            visit_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            time_spent = calculate_time_spent(app.start_time)
+            visited_page = request.url
+            writer = csv.writer(file)
+            writer.writerow([ip_address, mac_address, visit_time, time_spent, visited_page])
+
         try:
             total_visitors = get_total_visitors()
             visitors_feedbacks = get_visitors_feedback()
@@ -154,6 +169,21 @@ def submit_feedback():
 # Route for the report page
 @app.route('/report')
 def report():
+    # Store start time in the app object
+    if not hasattr(app, 'start_time'):
+        app.start_time = datetime.datetime.now()
+
+    # Save Visitor's Data
+    with open(REPORT_FILE, 'a', newline='') as file:
+        writer = csv.writer(file)
+        ip_address = request.remote_addr
+        mac_address = get_mac_address()
+        visit_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        time_spent = calculate_time_spent(app.start_time)
+        visited_page = request.url
+        writer = csv.writer(file)
+        writer.writerow([ip_address, mac_address, visit_time, time_spent, visited_page])
+
     try:
         total_visitors = get_total_visitors()
         visitors = get_visitors()
