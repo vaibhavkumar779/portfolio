@@ -100,20 +100,18 @@ def calculate_time_spent(start_time):
     time_spent = end_time - start_time
     return str(time_spent)
 
-#Directly Save Visitors Data
-with open(REPORT_FILE, 'a', newline='') as file:
-    ip_address = request.remote_addr
-    mac_address = get_mac_address()
-    visit_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    time_spent = calculate_time_spent(app.start_time)
-    visited_page = request.url
-    writer = csv.writer(file)
-    writer.writerow([ip_address,mac_address,visit_time,time_spent,visited_page])
-
-
 # Route for the portfolio page
 @app.route('/')
 def portfolio():
+    #Directly Save Visitors Data
+    with open(REPORT_FILE, 'a', newline='') as file:
+        ip_address = request.remote_addr
+        mac_address = get_mac_address()
+        visit_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        time_spent = calculate_time_spent(app.start_time)
+        visited_page = request.url
+        writer = csv.writer(file)
+        writer.writerow([ip_address,mac_address,visit_time,time_spent,visited_page])
     try:
         resume_data = read_file('resume.txt')
         journey_data = read_file('journey.txt')
