@@ -2,11 +2,11 @@ import os
 import sys
 import pytest
 
-# Add the parent directory of the 'portfolio' package to the module search path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "portfolio")))
+# # Add the parent directory of the 'portfolio' package to the module search path
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "portfolio")))
 
 # Import the app module from the 'portfolio' package
-from portfolio.app import app
+from portfolio import app
 
 @pytest.fixture
 def client():

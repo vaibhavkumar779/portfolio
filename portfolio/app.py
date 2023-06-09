@@ -6,7 +6,8 @@ import logging
 from flask import Flask, render_template, request
 from dotenv import load_dotenv
 
-app = Flask(__name__, template_folder='portfolio/templates')
+# app = Flask(__name__, template_folder='portfolio/templates')
+app = Flask(__name__)
 
 # Load environment variables from .env file
 load_dotenv()
@@ -16,7 +17,7 @@ logging.basicConfig(filename='logs/app.log', level=logging.INFO)
 
 
 # Define the path to the data directory
-DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../data')
 
 # Define the path to the report CSV file
 REPORT_FILE = os.path.join(DATA_DIR, 'report_data.csv')
