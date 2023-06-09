@@ -19,28 +19,34 @@ The folder structure of the project is as follows:
 
 ```shell
 portfolio/
-├── app.py
 ├── data
-│   ├── feedback.csv
-│   ├── journey.txt
-│   ├── report.csv
-│   └── resume.txt
+│   ├── feedback.csv
+│   ├── journey.txt
+│   ├── report_data.csv
+│   └── resume.txt
 ├── LICENSE
 ├── logs
-│   └── app.log
+│   └── app.log
 ├── portfolio
-│   ├── static
-│   │   └── css
-│   │       └── style.css
-│   └── templates
-│       ├── feedback.html
-│       ├── portfolio.html
-│       └── report.html
+│   ├── app.py
+│   ├── __init__.py
+│   ├── static
+│   │   └── css
+│   │       └── style.css
+│   └── templates
+│       ├── feedback.html
+│       ├── portfolio.html
+│       └── report.html
 ├── Procfile
 ├── README.md
 ├── requirements.txt
 ├── SetUpFlaskService.md
-└── setup.py
+├── setup.py
+├── test.ini
+├── tests
+│   ├── __init__.py
+│   └── test_app.py
+└── .env
 ```
 
 - The `app.py` file contains the Flask application code and routes.
@@ -54,6 +60,55 @@ portfolio/
 - The `.env` file is used for environment variables. Not here on github as .gitignore not allows only content was FLASK_DEBUG=development
 - The `README.md` file provides information about the project.
 - The `setup.py` file is used for packaging the application.
+
+### structure redifined
+
+```shell
+   1. data/ (Directory):
+        feedback.csv: Contains feedback data.
+        journey.txt: Contains journey information.
+        report_data.csv: Contains data for generating reports.
+        resume.txt: Contains resume content.
+
+   2. LICENSE:
+        The license file for the project.
+
+   3. logs/ (Directory):
+        app.log: Log file for application logs.
+
+   4. portfolio/ (Directory):
+        app.py: Flask application code.
+        init.py: Initialization file for the portfolio package.
+        static/ (Directory): Directory for static files.
+            css/ (Directory): Directory for CSS files.
+                style.css: CSS file for styling the web pages.
+        templates/ (Directory): Directory for HTML templates.
+            feedback.html: HTML template for the feedback page.
+            portfolio.html: HTML template for the portfolio page.
+            report.html: HTML template for the report page.
+
+   5. Procfile:
+        Specifies the commands that are executed by the app on startup.
+
+   6. README.md:
+        Readme file containing project information and instructions.
+
+   7. requirements.txt:
+        Contains the list of required Python packages for the project.
+
+   8. SetUpFlaskService.md:
+        Instructions for setting up the Flask service.
+
+   9. setup.py:
+        Setup file for the project.
+
+   10. test.ini:
+        Configuration file for running tests.
+
+   11. tests/ (Directory):
+        init.py: Initialization file for the tests package.
+        test_app.py: Test file for testing the Flask application.
+```
 
 ## Installation and Usage
 
