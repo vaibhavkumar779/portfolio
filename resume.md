@@ -1,45 +1,49 @@
-# VAIBHAV KUMAR
-Gorakhpur, Uttar Pradesh
-Email: vaibhav.kr.779@gmail.com | Phone: 8318620608
-[LinkedIn](LinkedIn Link) | [GitHub](GitHub Link)
+VAIBHAV KUMAR
+Gorakhpur, UP • vaibhav.kr.779@gmail.com • 8318620608 LinkedIn | GitHub | Youtube
 
-## SUMMARY
-I'm a technology enthusiast with a strong command of scripting and programming languages, including C, Python, Shell Scripting, and PowerShell. I excel in planning and building processes, utilizing tools like Azure DevOps, Trello, GitHub, Bitbucket, and Git. My experience also encompasses releasing and deploying tools such as Docker, Jenkins, Azure Pipeline, and GitHub Actions. I'm skilled in orchestration, configuration, and Infrastructure as Code (IaC) tools like Kubernetes, Ansible, and Terraform. My proficiency extends to monitoring and security tools like Prometheus, Grafana, Loki, Kiali, Jaegar, and SonarQube. In cloud technologies, I've worked with Azure (Blob Storage, Virtual Networks, Traffic Manager) and AWS (IAM, EC2, VPC). I'm well-versed in Linux environments (Ubuntu), Windows, Dagger, Qovery, Slack, GitOps, and Promtail.
+SUMMARY
+Results-driven DevOps engineer with expertise in Azure DevOps (ADO), Docker, Kubernetes, scripting (Python, Shell, PowerShell), and infrastructure automation using Ansible and Terraform. Proficient in monitoring (Prometheus, Grafana) and security. Proven track record in CI/CD pipeline development and global team coordination. Effective communicator with a focus on detail and security.
 
-## PROFESSIONAL EXPERIENCE
-**DevOps Engineer | Nashtech Global**  
-*Location:* Noida, Uttar Pradesh | *Jan 2023 – Present*
-- Designing and implementing robust CI/CD pipelines with Azure Pipelines, Git, and Azure.
-- Automating infrastructure deployment and configuration management using Terraform, Azure Artifacts, and Azure Cloud.
-- Collaborating cross-functionally to ensure seamless integration and software delivery.
-- Configuring and monitoring alerts with Prometheus and Grafana during migrations.
-- Reducing deployment time by 30% through CI/CD pipelines with Jenkins and Git.
-- Leveraging Ansible for configuration management, streamlining deployment.
-- Developing backend for dynamic data extraction deployed on AWS EC2.
-- Building a complete DevOps architecture for internal evaluation.
-- Deploying Loki-Promtail for time-series log storage.
-- Creating and maintaining automated CI/CD pipelines with Jenkins.
-- Scraping data from global websites using Python scripts with GET/POST API methods.
-- Configuring PostgreSQL databases with PgAdmin for data ingestion.
+PROFESSIONAL EXPERIENCE
+Nashtech Global	Noida, UP
+DevOps Engineer	Jan 2023 – Present
+- Azure DevOps (ADO) for end-to-end CI/CD pipeline, Azure Cloud, and Azure Artifacts.
+- Docker and Kubernetes for container orchestration.
+- Scripting in Python and PowerShell for automation.
+- Terraform for infrastructure provisioning.
+- Monitoring with Prometheus & Grafana during migration.
 
-**DevOps Engineer | Knoldus Inc (part of NashTech)**  
-*Location:* Noida, Uttar Pradesh | *Nov 2021 – Jan 2023*
-- Scripted and automated migration of Jfrog artifacts to GitHub Packages using PowerShell and Azure Pipelines.
+Knoldus Inc (part of NashTech) 
+DevOps Engineer
+Noida, UP Nov 2021 – Jan 2023
+- Jenkins, Git, and ADO for CI/CD, reducing deployment time.
+- Ansible for configuration management.
+- Automation of CI/CD pipelines using Jenkins.
+- Proficient in Python scripting and REST API usage.
 
-**Data Engineer | REOMNIFY**  
-*Location:* Noida, Uttar Pradesh | *Jan 2021 – June 2021*
+REOMNIFY	Noida, UP
+Data EngineerJan 2021 – June 2021
+- Python scripts for data scraping.
+- PostgreSQL configuration with PgAdmin for data ingestion.
 
-## EDUCATION
-- **Bachelor of Technology**  
-*Institution:* ABESIT, Ghaziabad, Uttar Pradesh | *Jun 2022*
-  - AKTU University First Division.
+TECHNICAL SKILLS
+- Scripting/Programming: Python, Shell, PowerShell.
+- Planning and Building: Azure DevOps (ADO), GitHub, Git.
+- Releasing and Deploying: Docker, Jenkins, Azure Pipeline, GitHub Actions.
+- Orchestration, Configuration, and IaC: Ansible, Terraform, Kubernetes.
+- Cloud: Azure, AWS.
+- Monitoring and Security: Prometheus, Grafana, Loki, Kiali, Jaeger, SonarQube.
+- Operating Systems: Linux (Ubuntu), Windows.
+- Others: Dagger, Qovery, Slack, GitOps.
 
-- **Intermediate, PCMB**  
-*Institution:* SAINIK SCHOOL GOPALGANJ, Gopalganj, Bihar | *Jul 2017*
-  - Achieved 82.6% marks.
+EDUCATION
+ABESIT	Ghaziabad, UP
+Bachelor of Technology (8.56 CGPA)	Jun 2022
 
-## CERTIFICATIONS
-- Professional Cloud DevOps Engineer (Google Cloud Community India) | Expires Sep 2024
-- Microsoft Certified: Azure Network Engineer Associate (Microsoft) | Expires Feb 2024
-- Developing on AWS: AWS Training and Certification
-- Python 3 Programming (Coursera)
+SAINIK SCHOOL GOPALGANJ	Gopalganj, Bihar
+Intermediate, PCMB (82.6 %)	Jul 2017
+
+CERTIFICATIONS
+- Professional Cloud DevOps Engineer - Google Cloud Community India (Expires Sep 2024)
+- Microsoft Certified: Azure Network Engineer Associate - Microsoft (Expires Feb 2024)
+- Python 3 Programming: Coursera
